@@ -13,12 +13,5 @@
         "psr-4": {
             "Aldhix\\Adminlte\\": "src"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Aldhix\\Adminlte\\ServiceProvider"
-            ]
-        }
     }
 }
