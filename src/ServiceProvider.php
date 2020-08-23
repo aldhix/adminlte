@@ -2,9 +2,9 @@
 
 namespace Aldhix\Adminlte;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as Service;
 
-class AdminlteServiceProvider extends ServiceProvider
+class ServiceProvider extends Service
 {
     /**
      * Register services.
