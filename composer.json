@@ -9,7 +9,6 @@
             "email": "aldhi.x@gmail.com"
         }
     ],
-    "require": {},
     "extra": {
         "laravel": {
             "providers": [
