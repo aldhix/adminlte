@@ -1,0 +1,20 @@
+{
+    "name": "aldhix/adminlte",
+    "description": "Template dan Component AdminLTE3",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aldhi Xar",
+            "email": "aldhi.x@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aldhix\\Adminlte\\AdminlteServiceProvider"
+            ],
+        }
+    },
+}
