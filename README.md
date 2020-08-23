@@ -8,7 +8,7 @@ Instal adminlte dengan composer :
 
 
 
-Setelah instal berhasil, registrasi provider pada file `config/app.php` sebagai berikut :
+Setelah instalasi berhasil, registrasi provider pada file `config/app.php` pada bagian `providers`:
 <pre>'providers' => [
     ...............
     Aldhix\Adminlte\ServiceProvider::class
@@ -18,4 +18,6 @@ publish provider pada laravel :
 
 `php artisan vendor:publish --provider=Aldhix\Adminlte\ServiceProvider`
 
-Untuk mengujicoba buat serve laravel ( `php artisan serv` ) kemudian ketikan pada browser http://localhost:8000/demo 
+Untuk mengujicoba buat server laravel ( `php artisan serv` ), kemudian ketikan pada browser http://localhost:8000/demo 
+
+> Apabila tidak ingin menghilankan demo anda cukup menghapus registrasi provider yang didaftarkan di atas
