@@ -20,4 +20,4 @@ publish provider pada laravel :
 
 Untuk mengujicoba buat server laravel ( `php artisan serv` ), kemudian ketikan pada browser http://localhost:8000/demo 
 
-> Apabila tidak ingin menghilankan demo anda cukup menghapus registrasi provider yang didaftarkan di atas
+> Apabila  ingin menghilangkan demo, anda cukup menghapus registrasi provider yang didaftarkan di atas
