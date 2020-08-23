@@ -8,12 +8,5 @@
             "name": "Aldhi Xar",
             "email": "aldhi.x@gmail.com"
         }
-    ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Aldhix\\Adminlte\\AdminlteServiceProvider"
-            ]
-        }
-    }
+    ]
 }
