@@ -11,7 +11,7 @@ Instal adminlte dengan composer :
 Setelah instalasi berhasil, registrasi provider pada file `config/app.php` pada bagian `providers`:
 <pre>'providers' => [
     ...............
-    Aldhix\Adminlte\ServiceProvider::class
+    Aldhix\Adminlte\ServiceProvider::class,
 ]</pre>
 
 publish provider pada laravel :
