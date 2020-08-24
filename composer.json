@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Aldhix\\Adminlte"
+                "Aldhix\\Adminlte\\ServiceProvider"
             ],
             "aliases": {
                 "AdminlteDemo": "Aldhix\\Adminlte\\AdminlteDemo"
