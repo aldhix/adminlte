@@ -13,5 +13,15 @@
         "psr-4": {
             "Aldhix\\Adminlte\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aldhix\\Adminlte"
+            ],
+            "aliases": {
+                "AdminlteDemo": "Aldhix\\Adminlte\\AdminlteDemo"
+            }
+        }
     }
 }
