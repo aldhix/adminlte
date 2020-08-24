@@ -18,6 +18,5 @@ publish provider pada laravel :
 
 `php artisan vendor:publish --provider=Aldhix\Adminlte\ServiceProvider`
 
-Untuk mengujicoba buat server laravel ( `php artisan serv` ), kemudian ketikan pada browser http://localhost:8000/demo 
+Untuk mengujicoba pada route tambahkan route demo `AdminlteDemo::routes()` buat server laravel ( `php artisan serv` ), kemudian ketikan pada browser http://localhost:8000/demo 
 
-> Apabila  ingin menghilangkan demo, anda cukup menghapus registrasi provider yang didaftarkan di atas
