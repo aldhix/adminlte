@@ -1,11 +1,11 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
-  @include('vendor.adminlte.sidebar.brand')
+  @adminlteSidebarBrand
 
   <!-- Sidebar -->
   <div class="sidebar">
     <!-- Sidebar user panel (optional) -->
-    @include('vendor.adminlte.sidebar.user')
+   @adminlteSidebarUser
 
     <!-- Sidebar Menu -->
     <nav class="mt-2">
@@ -13,7 +13,7 @@
       data-widget="treeview" role="menu" data-accordion="false">
         <!-- Add icons to the links using the .nav-icon class
              with font-awesome or any other icon font library -->
-        @include('vendor.adminlte.sidebar.menu')
+        @adminlteSidebarMenu
         
       </ul>
     </nav>

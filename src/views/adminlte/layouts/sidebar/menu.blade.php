@@ -1,44 +1,44 @@
-<x-adminlte.sidebar.menu 
+<x-lte-sidebar-menu 
  label="Dasboard" 
  icon="fas fa-tachometer-alt" 
- href="{{url('demo')}}" />
+ href="{{route('demo.index')}}" />
 
 <li class="nav-header">COMPONENTS</li>
 
-<x-adminlte.sidebar.menu 
+<x-lte-sidebar-menu 
  label="Form" 
  icon="far fa-list-alt "
- :href="url('demo/form')" />
+ :href="route('demo.form')" />
 
- <x-adminlte.sidebar.menu 
+ <x-lte-sidebar-menu 
  label="Tabel" 
  icon="fas fa-th-list "
- :href="url('demo/table')" />
+ :href="route('demo.table')" />
 
 <li class="nav-header">SETTINGS</li>
 
-<x-adminlte.sidebar.menu 
+<x-lte-sidebar-menu
  label="Users" 
  icon="fas fa-user-friends"
  is="user*"
  has-treeview="true">
 
-  <x-adminlte.sidebar.submenu
+  <x-lte-sidebar-submenu
    label="All User"
    href="#"/>
 
-  <x-adminlte.sidebar.submenu
+  <x-lte-sidebar-submenu
    label="Add New"
    href="#"/>
 
-</x-adminlte.sidebar.menu>
+</x-lte-sidebar-menu>
 
-<x-adminlte.sidebar.menu 
+<x-lte-sidebar-menu 
  label="Simple Link" 
  icon="fas fa-th"
  badge="New" />
 
- <x-adminlte.sidebar.menu 
+ <x-lte-sidebar-menu 
  label="About" 
  icon="fas fa-exclamation-circle"
- :href="url('demo/about')" />
+ :href="route('demo.about')" />

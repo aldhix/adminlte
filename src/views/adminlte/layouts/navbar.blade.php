@@ -16,7 +16,7 @@
         <a href="#" class="dropdown-item">
           <i class="fas fa-user mr-2"></i> My Profile
         </a>
-         <a href="{{ url('demo/about') }}" class="dropdown-item">
+         <a href="{{ route('demo.about') }}" class="dropdown-item">
           <i class="fas fa-exclamation-circle mr-2"></i> About
         </a>
         <div class="dropdown-divider"></div>

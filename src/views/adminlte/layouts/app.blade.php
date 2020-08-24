@@ -8,9 +8,9 @@
   <title>AdminLTE 3 | @yield('title')</title>
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="{{url('vendor/adminlte/plugins/fontawesome-free/css/all.min.css')}}">
+  <link rel="stylesheet" href="{{url('adminlte/plugins/fontawesome-free/css/all.min.css')}}">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{url('vendor/adminlte/dist/css/adminlte.min.css')}}">
+  <link rel="stylesheet" href="{{url('adminlte/dist/css/adminlte.min.css')}}">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
@@ -20,11 +20,11 @@
 <div class="wrapper">
 
   <!-- Navbar -->
-  @include('vendor.adminlte.navbar')
+  @adminlteNavbar
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  @include('vendor.adminlte.sidebar')
+  @adminlteSidebar
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -51,18 +51,18 @@
   <!-- /.content-wrapper -->
 
   <!-- Main Footer -->
-  @include('vendor.adminlte.footer')
+  @adminlteFooter
 
 </div>
 <!-- ./wrapper -->
 @stack('modal')
 
 <!-- jQuery -->
-<script src="{{url('vendor/adminlte/plugins/jquery/jquery.min.js')}}"></script>
+<script src="{{url('adminlte/plugins/jquery/jquery.min.js')}}"></script>
 <!-- Bootstrap 4 -->
-<script src="{{url('vendor/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{url('adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- AdminLTE App -->
-<script src="{{url('vendor/adminlte/dist/js/adminlte.min.js')}}"></script>
+<script src="{{url('adminlte/dist/js/adminlte.min.js')}}"></script>
 @stack('js')
 </body>
 </html>

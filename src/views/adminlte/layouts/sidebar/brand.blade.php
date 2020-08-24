@@ -1,5 +1,5 @@
-<a href="{{url('demo')}}" class="brand-link">
-	<img src="{{url('vendor/adminlte/dist/img/AdminLTELogo.png')}}" 
+<a href="{{route('demo.index')}}" class="brand-link">
+	<img src="{{url('adminlte/dist/img/AdminLTELogo.png')}}" 
 	alt="AdminLTE Logo" 
 	class="brand-image img-circle elevation-3"    
 	style="opacity: .8">

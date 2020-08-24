@@ -1,10 +1,10 @@
-@extends('vendor.adminlte.layouts.app')
+@extends('adminlte.layouts.app')
 @section('title','Table')
 @section('content-header','Table')
 @section('content')
 <div class="row">
     <div class="col-12">
-      <x-adminlte.table search='true' title="Data">
+      <x-lte-table search='true' title="Data">
         <x-slot name="header">
           <a href="#" class="btn btn-primary btn-sm">[+] Create New</a>
         </x-slot>
@@ -19,10 +19,10 @@
         <tr>
           <td>{{$td['id']}}</td><td>{{$td['nama']}}</td>
           <td>
-            <x-adminlte.action 
+            <x-lte-action 
             edit="#" 
             view="#" 
-            :delete="url('demo/delete',['id'=>$td['id']])" />
+            :delete="route('demo.destroy',['id'=>$td['id']])" />
           </td>
         </tr>
         @endforeach
@@ -36,7 +36,7 @@
             <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
           </ul>
         </x-slot>
-      </x-adminlte.table>
+      </x-lte-table>
     </div>
 </div>
 @endsection
